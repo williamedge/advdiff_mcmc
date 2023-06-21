@@ -6,6 +6,12 @@ late 2022. A more generic version of the fucntions is planned.
 
 In later versions the functions will be split into those relating to the model 
 and those relating to MCMC sampling and evlauation. 
+
+The core of these functions has been taken from an example on the Pymc3 website ("Using a “black box” likelihood function"). 
+
+To do:
+ - improve commenting
+ - fix loglike mean function
 """
 
 import numpy as np
