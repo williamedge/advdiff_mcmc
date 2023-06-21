@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='advdiff_mcmc',
-    version='0.1.1',    
+    version='0.1.2',    
     description='A Python package for Bayesian estimation of parameters in an advection-diffusion equation.',
     url='https://github.com/williamedge/advdiff_mcmc',
     author='William Edge',
@@ -11,7 +11,7 @@ setup(
     packages=['advdiff_mcmc'],
     install_requires=['numpy',
                       'scipy',
-                      'pymc3'],
+                      'pymc'],
 
     classifiers=[
         'Development Status :: 2 - Improvement',
